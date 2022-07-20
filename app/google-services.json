@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925972266198",
+    "project_id": "kitaaba-gadaa-kutaatokkoffaa",
+    "storage_bucket": "kitaaba-gadaa-kutaatokkoffaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925972266198:android:aeabe590c05538c6ad1d77",
+        "android_client_info": {
+          "package_name": "com.beckytech.kitaabagadaakutaatokkoffaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925972266198-hrtj767t8v5vff3dft5bjh74ur2a65kq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhqXGBu7xpNCRCVkVgLToZ4ltB3d70ILQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925972266198-hrtj767t8v5vff3dft5bjh74ur2a65kq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

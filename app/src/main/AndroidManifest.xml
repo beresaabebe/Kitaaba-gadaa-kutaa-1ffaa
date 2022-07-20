@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.beckytech.kitaabagadaakutaatokkoffaa">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".MyApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".AboutUsActivity"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".Mammaaksa"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".Takkiyyee"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".MiootaGadaa"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".ManguddooKeenya"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".DhugaafiDhara"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".FiroomaHaadhaa"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".FiroomaAbbaa"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".SangootaSadan"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".BeenuNidullaa"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".JimaaJimiitee"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".Hiibboo"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".Tuqaa"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".BinooBineentii"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".MukaMukkurree"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".EebbaManguddoo"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".FaaruuHirmaanaa"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".TikseeSobduu"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".HibboonTayiiActivity"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".WaaJajuuActivity"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".MainTokkeeActivity"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="true"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8504401574247581~3103794343"/>
+
+    </application>
+
+</manifest>

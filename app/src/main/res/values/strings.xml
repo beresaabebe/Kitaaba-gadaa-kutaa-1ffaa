@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kitaaba Gadaa KutaaTokkoffaa</string>
+    <string name="search">Search</string>
+    <string name="about_developer">About Developer</string>
+    <string name="phone">Phone</string>
+    <string name="facebook">Facebook</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="more_apps">More Apps</string>
+    <string name="share">Share</string>
+    <string name="exit">Exit</string>
+    <string name="check_update">Check Update</string>
+    <string name="rate">Rate</string>
+    <string name="about">About</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8504401574247581/8097370224</string>
+    <string name="ads_unit_interstitial_unit">ca-app-pub-8504401574247581/4142647498</string>
+    <string name="app_opener_ad_unit_id">ca-app-pub-8504401574247581/3694821285</string>
+</resources>
