@@ -33,7 +33,7 @@ class SplashActivity : AppCompatActivity() {
             override fun onFinish() {
                 secondsRemaining = 0
                 counterTextView.text = "Done."
-                val application: Application = getApplication()
+                val application: Application = application
                 if (application !is MyApplication) {
                     Log.e(
                         SplashActivity.Companion.LOG_TAG,

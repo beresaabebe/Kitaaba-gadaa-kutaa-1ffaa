@@ -85,14 +85,20 @@ class MainActivity : AppCallOutside() {
             if (position == 0) {
                 if (mInterstitialAd != null) {
                     mInterstitialAd!!.show(this@MainActivity)
-                    mInterstitialAd!!.fullScreenContentCallback = object : FullScreenContentCallback() {
-                        override fun onAdDismissedFullScreenContent() {
-                            super.onAdDismissedFullScreenContent()
-                            startActivity(Intent(this@MainActivity, MainTokkeeActivity::class.java))
-                            mInterstitialAd = null
-                            setAds()
+                    mInterstitialAd!!.fullScreenContentCallback =
+                        object : FullScreenContentCallback() {
+                            override fun onAdDismissedFullScreenContent() {
+                                super.onAdDismissedFullScreenContent()
+                                startActivity(
+                                    Intent(
+                                        this@MainActivity,
+                                        MainTokkeeActivity::class.java
+                                    )
+                                )
+                                mInterstitialAd = null
+                                setAds()
+                            }
                         }
-                    }
                 } else {
                     startActivity(Intent(this@MainActivity, MainTokkeeActivity::class.java))
                 }
@@ -109,14 +115,15 @@ class MainActivity : AppCallOutside() {
             if (position == 3) {
                 if (mInterstitialAd != null) {
                     mInterstitialAd!!.show(this@MainActivity)
-                    mInterstitialAd!!.fullScreenContentCallback = object : FullScreenContentCallback() {
-                        override fun onAdDismissedFullScreenContent() {
-                            super.onAdDismissedFullScreenContent()
-                            startActivity(Intent(this@MainActivity, TikseeSobduu::class.java))
-                            mInterstitialAd = null
-                            setAds()
+                    mInterstitialAd!!.fullScreenContentCallback =
+                        object : FullScreenContentCallback() {
+                            override fun onAdDismissedFullScreenContent() {
+                                super.onAdDismissedFullScreenContent()
+                                startActivity(Intent(this@MainActivity, TikseeSobduu::class.java))
+                                mInterstitialAd = null
+                                setAds()
+                            }
                         }
-                    }
                 } else {
                     startActivity(Intent(this, TikseeSobduu::class.java))
                 }
@@ -133,14 +140,15 @@ class MainActivity : AppCallOutside() {
             if (position == 6) {
                 if (mInterstitialAd != null) {
                     mInterstitialAd!!.show(this@MainActivity)
-                    mInterstitialAd!!.fullScreenContentCallback = object : FullScreenContentCallback() {
-                        override fun onAdDismissedFullScreenContent() {
-                            super.onAdDismissedFullScreenContent()
-                            startActivity(Intent(this@MainActivity, BinooBineentii::class.java))
-                            mInterstitialAd = null
-                            setAds()
+                    mInterstitialAd!!.fullScreenContentCallback =
+                        object : FullScreenContentCallback() {
+                            override fun onAdDismissedFullScreenContent() {
+                                super.onAdDismissedFullScreenContent()
+                                startActivity(Intent(this@MainActivity, BinooBineentii::class.java))
+                                mInterstitialAd = null
+                                setAds()
+                            }
                         }
-                    }
                 } else {
                     startActivity(Intent(this, BinooBineentii::class.java))
                 }
@@ -151,14 +159,15 @@ class MainActivity : AppCallOutside() {
             if (position == 8) {
                 if (mInterstitialAd != null) {
                     mInterstitialAd!!.show(this@MainActivity)
-                    mInterstitialAd!!.fullScreenContentCallback = object : FullScreenContentCallback() {
-                        override fun onAdDismissedFullScreenContent() {
-                            super.onAdDismissedFullScreenContent()
-                            startActivity(Intent(this@MainActivity, Tuqaa::class.java))
-                            mInterstitialAd = null
-                            setAds()
+                    mInterstitialAd!!.fullScreenContentCallback =
+                        object : FullScreenContentCallback() {
+                            override fun onAdDismissedFullScreenContent() {
+                                super.onAdDismissedFullScreenContent()
+                                startActivity(Intent(this@MainActivity, Tuqaa::class.java))
+                                mInterstitialAd = null
+                                setAds()
+                            }
                         }
-                    }
                 } else {
                     startActivity(Intent(this, Tuqaa::class.java))
                 }
@@ -170,19 +179,7 @@ class MainActivity : AppCallOutside() {
                 startActivity(Intent(this, JimaaJimiitee::class.java))
             }
             if (position == 11) {
-                if (mInterstitialAd != null) {
-                    mInterstitialAd!!.show(this@MainActivity)
-                    mInterstitialAd!!.fullScreenContentCallback = object : FullScreenContentCallback() {
-                        override fun onAdDismissedFullScreenContent() {
-                            super.onAdDismissedFullScreenContent()
-                            startActivity(Intent(this@MainActivity, BeenuNidullaa::class.java))
-                            mInterstitialAd = null
-                            setAds()
-                        }
-                    }
-                } else {
-                    startActivity(Intent(this, BeenuNidullaa::class.java))
-                }
+                startActivity(Intent(this, BeenuNidullaa::class.java))
             }
 
             if (position == 12) {
@@ -191,14 +188,15 @@ class MainActivity : AppCallOutside() {
             if (position == 13) {
                 if (mInterstitialAd != null) {
                     mInterstitialAd!!.show(this@MainActivity)
-                    mInterstitialAd!!.fullScreenContentCallback = object : FullScreenContentCallback() {
-                        override fun onAdDismissedFullScreenContent() {
-                            super.onAdDismissedFullScreenContent()
-                            startActivity(Intent(this@MainActivity, FiroomaAbbaa::class.java))
-                            mInterstitialAd = null
-                            setAds()
+                    mInterstitialAd!!.fullScreenContentCallback =
+                        object : FullScreenContentCallback() {
+                            override fun onAdDismissedFullScreenContent() {
+                                super.onAdDismissedFullScreenContent()
+                                startActivity(Intent(this@MainActivity, FiroomaAbbaa::class.java))
+                                mInterstitialAd = null
+                                setAds()
+                            }
                         }
-                    }
                 } else {
                     startActivity(Intent(this, FiroomaAbbaa::class.java))
                 }
@@ -213,14 +211,20 @@ class MainActivity : AppCallOutside() {
             if (position == 16) {
                 if (mInterstitialAd != null) {
                     mInterstitialAd!!.show(this@MainActivity)
-                    mInterstitialAd!!.fullScreenContentCallback = object : FullScreenContentCallback() {
-                        override fun onAdDismissedFullScreenContent() {
-                            super.onAdDismissedFullScreenContent()
-                            startActivity(Intent(this@MainActivity, ManguddooKeenya::class.java))
-                            mInterstitialAd = null
-                            setAds()
+                    mInterstitialAd!!.fullScreenContentCallback =
+                        object : FullScreenContentCallback() {
+                            override fun onAdDismissedFullScreenContent() {
+                                super.onAdDismissedFullScreenContent()
+                                startActivity(
+                                    Intent(
+                                        this@MainActivity,
+                                        ManguddooKeenya::class.java
+                                    )
+                                )
+                                mInterstitialAd = null
+                                setAds()
+                            }
                         }
-                    }
                 } else {
                     startActivity(Intent(this, ManguddooKeenya::class.java))
                 }
@@ -229,19 +233,7 @@ class MainActivity : AppCallOutside() {
                 startActivity(Intent(this, MiootaGadaa::class.java))
             }
             if (position == 18) {
-                if (mInterstitialAd != null) {
-                    mInterstitialAd!!.show(this@MainActivity)
-                    mInterstitialAd!!.fullScreenContentCallback = object : FullScreenContentCallback() {
-                        override fun onAdDismissedFullScreenContent() {
-                            super.onAdDismissedFullScreenContent()
-                            startActivity(Intent(this@MainActivity, Takkiyyee::class.java))
-                            mInterstitialAd = null
-                            setAds()
-                        }
-                    }
-                } else {
-                    startActivity(Intent(this@MainActivity, Takkiyyee::class.java))
-                }
+                startActivity(Intent(this, Takkiyyee::class.java))
             }
             if (position == 19) {
                 startActivity(Intent(this, Mammaaksa::class.java))
@@ -252,6 +244,7 @@ class MainActivity : AppCallOutside() {
             openPopupMenu(this@MainActivity, binding.menuBtn)
         }
     }
+
     private fun setAds() {
         val adRequest = AdRequest.Builder().build()
         InterstitialAd.load(this, getString(R.string.ads_unit_interstitial_unit), adRequest,
@@ -259,6 +252,7 @@ class MainActivity : AppCallOutside() {
                 override fun onAdLoaded(interstitialAd: InterstitialAd) {
                     mInterstitialAd = interstitialAd
                 }
+
                 override fun onAdFailedToLoad(loadAdError: LoadAdError) {
                     mInterstitialAd = null
                 }

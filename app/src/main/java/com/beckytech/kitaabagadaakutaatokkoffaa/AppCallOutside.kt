@@ -57,7 +57,7 @@ open class AppCallOutside : AppCompatActivity() {
                 )
                 intent.putExtra(
                     Intent.EXTRA_TEXT,
-                    "Download Galata Gooftaa from play store \n https://play.google.com/store/apps/details?id=com.beckytech.kitaabagadaakutaatokkoffaa"
+                    "Download Kitaaba Gadaa Afaan Oromoo kutaa 1ffaa from play store \n https://play.google.com/store/apps/details?id=com.beckytech.kitaabagadaakutaatokkoffaa"
                 )
                 startActivity(Intent.createChooser(intent, "Share app's link via "))
             }
